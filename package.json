@@ -1,55 +1,38 @@
 {
-  "title": "SB Admin 2",
-  "name": "startbootstrap-sb-admin-2",
-  "version": "4.0.2",
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Messenger Platform Bot",
+  "main": "index.js",
   "scripts": {
-    "start": "gulp watch"
+    "start": "node bot.js"
   },
-  "description": "An open source Bootstrap 4 admin theme.",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template",
-    "admin",
-    "app"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/sb-admin-2",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
+    "type": "",
+    "url": ""
   },
+  "keywords": [
+    "messenger",
+    "bot",
+    "quickstart"
+  ],
+  "author": "Tawanda Chivasa",
+  "license": "MIT",
+  "homepage": "",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.7.2",
-    "bootstrap": "4.3.1",
-    "chart.js": "^2.8.0",
-    "datatables.net-bs4": "^3.2.2",
-    "jquery": "3.3.1",
-    "jquery.easing": "^1.4.1",
-    "less": "^3.9.0"
-  },
-  "devDependencies": {
-    "browser-sync": "2.26.3",
-    "del": "^3.0.0",
-    "gulp": "4.0.0",
-    "gulp-autoprefixer": "6.0.0",
-    "gulp-clean-css": "4.0.0",
-    "gulp-header": "2.0.7",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "1.4.0",
-    "gulp-sass": "4.0.2",
-    "gulp-uglify": "3.0.1",
-    "merge-stream": "^1.0.1"
+    "request": "^2.72.0",
+    "express": "*",
+    "body-parser": "*",
+    "parse-rss": "^1.0.3",
+    "feedparser": "^2.1.0",
+    "wit-ai": "^4.1.2",
+    "terinjokes": "^1.1.2",
+    "chuck": "^0.0.4",
+    "one-liner-joke": "^1.0.0",
+    "chuck-norris-api": "^1.0.8",
+    "safe-json-parse": "^4.0.0",
+    "botly": "^1.4.0",
+    "messenger-bot": "^2.4.0",
+    "9gag-scraper": "^1.0.1",
+    "aimlinterpreter": "^0.1.7"
   }
 }
